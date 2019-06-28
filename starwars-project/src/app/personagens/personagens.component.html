@@ -1,0 +1,14 @@
+
+<h1>Lista de Personagens</h1>
+<table border="1" width="100%">
+    <thead>
+            <th>Nome do personagem</th>
+            <th>Cor do Cabelo</th>
+    </thead>
+<tbody>
+    <tr *ngFor="let personagem of personagens">
+      <td><a routerLink="/characterdetails" [queryParams]="{ id: personagem.name }">{{ personagem.name }}</a></td>
+      <td><a routerLink="/characterdetails" [queryParams]="{ id: personagem.name }">{{ personagem.hair_color }}</a></td>
+    </tr>
+</tbody>
+</table>

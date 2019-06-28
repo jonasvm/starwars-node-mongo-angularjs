@@ -1,0 +1,14 @@
+
+<h1>Lista de Naves</h1>
+<table border="1" width="100%">
+    <thead>
+            <th>Nome do Nave</th>
+            <th>Modelo da Nave</th>
+    </thead>
+<tbody>
+    <tr *ngFor="let nave of naves; let i = index">
+      <td><a routerLink="/shipdetails" [queryParams]="{ id: nave.name}"> {{ nave.name }} </a></td>
+      <td><a routerLink="/shipdetails" [queryParams]="{ id: nave.name}"> {{ nave.model }}</a></td>
+    </tr>
+</tbody>
+</table>

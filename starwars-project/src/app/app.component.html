@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <img width="100%" alt="Star Wars Header" src="https://i.imgur.com/BDiT0T9.jpg">
+</div>
+<table width="100%" bgcolor="black">
+  <th><a routerLink="home" color="white">Home </a></th>
+  <th><a routerLink="personagens">Personagens</a></th>
+  <th><a routerLink="naves">Naves</a></th>
+</table>
+ 
+<div align="center" *ngIf="!autenticated">
+  <p>Usuário: <input type="text" [(ngModel)]="usuario"></p>
+  <p>Senha: <input type="text" [(ngModel)]="senha"></p>
+  <button (click)="login()" >Login</button>
+</div>
+<router-outlet></router-outlet>
