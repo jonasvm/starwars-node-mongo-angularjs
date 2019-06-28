@@ -1,4 +1,5 @@
-# Starwars Project
+# StarWars Project
+The StarWars Project is a simple project, built to practice the Angular JS, Node JS and Mongo DB skills. It is very simple, and just access some API endpoints to retrieve information, and show in the screen, in the simplest way possible.
 
 # Mongo Setup
 After installed, issue the following commands (they will create default user admin, with password admin):
