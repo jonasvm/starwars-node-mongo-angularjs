@@ -1,0 +1,4 @@
+{
+  "dbName": "starwars_users",
+  "uri": "mongodb://localhost:27017"
+}
