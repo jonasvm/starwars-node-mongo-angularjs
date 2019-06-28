@@ -17,3 +17,7 @@ The frontend is built over Angular JS, and uses Angular CLI.
 - NodeJS must be installed, after this, issue the command: npm install [in order to generate node modules dependencies]
 - After dependencies are installed, the easiest way to test is is issuing the command: ng serve 
 - It will run over localhost port 4200
+
+# SWAPI - The Star Wars API
+The frontend uses the data provided by SWAPI to work, if any inconsistenses are found, please check if API is answering (using for instance the Postman).
+- For more details abou the API, please access the official website: https://swapi.co/documentation
